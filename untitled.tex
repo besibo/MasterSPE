@@ -1,4 +1,13 @@
-% Created by bsimonbo on 2015-11-19.
+% -----------------------------------------------------------------------------------------------------------------------------------------------
+% -----------------------------------------------------------------------------------------------------------------------------------------------
+
+% =============================================================================
+% = PREAMBULE ET PAGE DE GARDE : NE RIEN MODIFIER ICI SANS UNE BONNE RAISON ! =
+% =============================================================================
+
+% -----------------------------------------------------------------------------------------------------------------------------------------------
+% -----------------------------------------------------------------------------------------------------------------------------------------------
+
 \documentclass[a4paper,11pt]{article}
 
 \usepackage[francais]{babel}
@@ -9,11 +18,40 @@
 \usepackage[margin=3.5cm]{geometry}
 \usepackage{setspace,booktabs}
 
+% Création de 2 styles d'en-têtes et pieds de page : 1 pour le corps du texte et un pour lapage de garde et la table des matières
+\usepackage{etoolbox,lastpage,fancyhdr}
+
+\fancypagestyle{main}{%
+  \fancyhead[L]{\emph{Université de La Rochelle}}
+  \fancyhead[C]{}
+  \fancyhead[R]{\emph{Master SPE}}
+  \fancyfoot[L]{\emph{Règlement des études 2014--2018}}
+  \fancyfoot[C]{}
+  \fancyfoot[R]{\thepage\ / \pageref{LastPage}}
+  \renewcommand{\headrulewidth}{0.4pt}
+  \renewcommand{\footrulewidth}{0.4pt}
+}
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \fancyfoot{}%
+  \renewcommand{\headrulewidth}{0pt}%
+  \renewcommand{\footrulewidth}{0pt}%
+}
+
+\appto\frontmatter{\pagestyle{plain}}
+\appto\mainmatter{\pagestyle{main}}
+
+
+
 \title{Règlement des études\\ Master Sciences Pour l'Environnement}
 \author{Sciences, Technologie et Santé\\Sciences Humaines et Sociales\\Droit Économie Gestion}
 \date{2014--2018}
 
+
+
 \begin{document}
+
+\frontmatter
 
 \maketitle
 
@@ -33,15 +71,29 @@ Ce cadre réglementaire est complété par la charte des examens de l'universit�
 Afin de préserver sa mission d'enseignement, l'ULR prévoit à tout moment de l'année la possibilité de déroger à tout ou partie des articles du présent règlement en cas de pandémie constatée par l'autorité administrative compétente.}}
 \end{center}
 
-\noindent Avis du conseil d’UFR le 5 juin 2014 (FLASH), le 9 juillet 2015 (DROIT/GESTION), 26 juin 2015 (PST).\\
+\noindent Avis des conseils d’UFR le 5 juin 2014 (FLASH), le 26 juin 2015 (PST) et le 9 juillet 2015 (DROIT/GESTION).\\
 
-\noindent Adopté en commission de la formation et la vie universitaire le \ldots{}
+\noindent Adopté en Commission de la Formation et la Vie Universitaire le \ldots{}
 
-\newpage
+\clearpage
 \tableofcontents
+\clearpage
+
+\mainmatter
+
+% -----------------------------------------------------------------------------------------------------------------------------------------------
+% -----------------------------------------------------------------------------------------------------------------------------------------------
+
+% ==========================================================================================
+% = LE CORPS DU DOCUMENT COMMENCE ICI : NE RIEN MODIFIER AU-DESSUS SANS UNE BONNE RAISON ! =
+% ==========================================================================================
+
+% -----------------------------------------------------------------------------------------------------------------------------------------------
+% -----------------------------------------------------------------------------------------------------------------------------------------------
 
 \section{Inscriptions}\label{Inscriptions}
 \subsection{Accès}\label{Acces}
+\setcounter{page}{1}
 
 L'accès à la 1\iere{} année de master est ouvert aux étudiants ayant obtenu :
 \begin{itemize} 
