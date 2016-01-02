@@ -1,7 +1,7 @@
 (dp0
 Vengine
 p1
-Vxelatex
+S'pdflatex'
 p2
 sVpackages
 p3
@@ -13,15 +13,15 @@ Vhyperref
 p6
 aVbooktabs
 p7
-aVbabel
+aVgeometry
 p8
-aVfullpage
+aVbabel
 p9
-aVmicrotype
-p10
-aVinputenc
-p11
 aVsetspace
+p10
+aVmicrotype
+p11
+aVinputenc
 p12
 aVcfr-lm
 p13
@@ -33,11 +33,13 @@ g4
 ((lp17
 S'untitled.tex'
 p18
-aV/Users/bsimonbo/Dropbox/_Master 1 SPE/Re\u0300glement des e\u0301tudes/./untitled.tex
+aV/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
 p19
-atp20
-Rp21
+aV/Users/bsimonbo/Dropbox/_Master 1 SPE/Re\u0300glement des e\u0301tudes/./untitled.tex
+p20
+atp21
+Rp22
 sVsynctex
-p22
+p23
 I01
 s.
