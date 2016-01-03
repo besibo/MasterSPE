@@ -11,7 +11,7 @@ p4
 ((lp5
 Vhyperref
 p6
-aVfancyhdr
+aVbooktabs
 p7
 aVgeometry
 p8
@@ -19,7 +19,7 @@ aVbabel
 p9
 aVetoolbox
 p10
-aVbooktabs
+aVfancyhdr
 p11
 aVlastpage
 p12

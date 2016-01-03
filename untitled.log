@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.26)  3 JAN 2016 00:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.26)  3 JAN 2016 13:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -611,11 +611,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--75
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./untitled.toc [2
 
-])
+] [3])
 \tf@toc=\write4
 \openout4 = `untitled.toc'.
 
- [3]
+ [4]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -640,11 +640,16 @@ e.3}) has been already used, duplicate ignored
                    \relax 
 l.179 \item d
              u secrétariat du Master SPE du bâtiment Flash 2 (2ème étage...
-[3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16]
+[3]pdfTeX warning (ext4): destination with the same identifier (name{page.4}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.198 \end{itemize}
+                    [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15]
+[16]
 LaTeX Font Info:    Try loading font information for T1+clmt on input line 471.
 
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/cfr-lm/t1clmt.fd
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/cfr-lm/t1clmt.fd
 File: t1clmt.fd 2010/05/25 Fontinst v1.933 font definitions for T1/clmt.
 )
 Package microtype Info: Loading generic settings for font family
@@ -660,25 +665,29 @@ vi�ve Goliard-Breuleux[][] (\T1/clmt/m/n/10.95 05.46.45.68.52\T1/clm2j/m/n/10.9
 
 
 AED: lastpage setting LastPage
-[17]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 508.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 508.
+[17] [18]
+Overfull \vbox (169.19943pt too high) has occurred while \output is active []
+
+
+[19]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 577.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 577.
  (./untitled.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 508.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 508.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 577.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 577.
 Package rerunfilecheck Info: File `untitled.out' has not changed.
-(rerunfilecheck)             Checksum: 4103B7EA162CAA3536C36AE27F38AC77;4296.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 508.
+(rerunfilecheck)             Checksum: CAA1F50AFAD2817AFD8BF7D3F5D77389;6404.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 577.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 58 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 11247 strings out of 493089
- 167207 string characters out of 6134841
- 299760 words of memory out of 5000000
- 14282 multiletter control sequences out of 15000+600000
+ 11313 strings out of 493089
+ 168485 string characters out of 6134841
+ 300792 words of memory out of 5000000
+ 14314 multiletter control sequences out of 15000+600000
  68025 words of font info for 203 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,12n,68p,950b,696s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -696,10 +705,10 @@ texlive/2015/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/201
 5/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2015/texmf-dist
 /fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
 e1/public/lm/lmtt10.pfb>
-Output written on untitled.pdf (20 pages, 307166 bytes).
+Output written on untitled.pdf (23 pages, 313308 bytes).
 PDF statistics:
- 495 PDF objects out of 1000 (max. 8388607)
- 457 compressed objects within 5 object streams
- 77 named destinations out of 1000 (max. 500000)
- 31153 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 677 PDF objects out of 1000 (max. 8388607)
+ 634 compressed objects within 7 object streams
+ 111 named destinations out of 1000 (max. 500000)
+ 31409 words of extra memory for PDF output out of 35830 (max. 10000000)
 
