@@ -17,39 +17,43 @@ aVgeometry
 p8
 aVbabel
 p9
-aVetoolbox
+aVsetspace
 p10
 aVfancyhdr
 p11
-aVlastpage
+aVrotating
 p12
-aVmicrotype
+aVlastpage
 p13
-aVinputenc
+aVmicrotype
 p14
-aVsetspace
+aVplaceins
 p15
-aVcfr-lm
+aVinputenc
 p16
-atp17
-Rp18
+aVetoolbox
+p17
+aVcfr-lm
+p18
+atp19
+Rp20
 sVfiles_with_guttermarks
-p19
-g4
-((lp20
-V/Users/bsimonbo/Dropbox/_Master 1 SPE/Re\u0300glement des e\u0301tudes/./untitled.toc
 p21
-aV/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
-p22
-aV/Users/bsimonbo/Dropbox/_Master 1 SPE/Re\u0300glement des e\u0301tudes/untitled.tex
+g4
+((lp22
+V/Users/bsimonbo/Dropbox/_Master 1 SPE/Re\u0300glement des e\u0301tudes/./untitled.toc
 p23
-aS'untitled.tex'
+aV/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
 p24
-aV/Users/bsimonbo/Dropbox/_Master 1 SPE/Re\u0300glement des e\u0301tudes/./untitled.tex
+aV/Users/bsimonbo/Dropbox/_Master 1 SPE/Re\u0300glement des e\u0301tudes/untitled.tex
 p25
-atp26
-Rp27
+aS'untitled.tex'
+p26
+aV/Users/bsimonbo/Dropbox/_Master 1 SPE/Re\u0300glement des e\u0301tudes/./untitled.tex
+p27
+atp28
+Rp29
 sVsynctex
-p28
+p30
 I01
 s.
