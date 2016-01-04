@@ -17,6 +17,7 @@
 \usepackage[tt={oldstyle=false,proportional=false,variable=false}]{cfr-lm}
 \usepackage[margin=3.5cm]{geometry}
 \usepackage{setspace,booktabs,rotating,placeins}
+\usepackage[table,xcdraw]{xcolor}
 
 % Création de 2 styles d'en-têtes et pieds de page : 1 pour le corps du texte et un pour lapage de garde et la table des matières
 \usepackage{etoolbox,lastpage,fancyhdr}
@@ -522,6 +523,71 @@ Responsable du master 1 : \href{mailto:benoit.simon-bouhet@univ-lr.fr}{Benoît S
 \FloatBarrier
 
 \subsubsection{Semestre 3}
+
+\begin{sidewaystable}[]
+\centering
+\caption{My caption}
+\label{my-label}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lllllllllll}
+\rowcolor[HTML]{9B9B9B} 
+Semestre 1    &                                                                                           &    &    &    &                 &      &      &             &                   &           \\
+\rowcolor[HTML]{C0C0C0} 
+Code EC       & Libellé                                                                                   & CM & TD & TP & Responsable     & ECTS & Coef & Obligatoire & Session 1         & Session 2 \\
+\rowcolor[HTML]{EFEFEF} 
+UE-20101C     & UE transversale                                                                           &    &    &    &                 & 6    &      &             &                   &           \\
+ENV-20112C    & Méthodologie pour la rédaction et la présentation de rapports ou d'articles scientifiques &    &    & 20 & F. Caurant      & 2    & 1    & O           & CC                & E2        \\
+ANG-20113C    & Langue vivante - anglais                                                                  &    & 24 &    & F. Healy        & 2    & 1    & O           & CC                & E2        \\
+ENV-20114C    & Environnement transversal 1 : Gestion Intégrée des Zones Côtières                         & 20 & 4  &    & C. Parain       & 2    & 1    & O           & E1                & E2        \\
+\rowcolor[HTML]{EFEFEF} 
+UE-20102C     & UE d'ouverture (3 EC obligatoires + 1 EC au choix)                                        &    &    &    &                 & 12   &      &             &                   &           \\
+ENV-20101C    & Entreprise et développement durable                                                       & 9  & 6  &    & F. Mayon        & 3    & 1    & O           & E1                & E2        \\
+ENV-20102C    & Dynamique des environnements côtiers                                                      & 12 & 12 & 6  & I. Brenon       & 3    & 1    & O           & E1                & E2        \\
+ENV-20103C    & Initiation au fonctionnemet morphodynamique des littoraux                                 & 18 & 9  &    & V. Duvat-Magnan & 3    & 1    & O           & CC                & E2        \\
+MS-20104C     & Management de l'entreprise : aspects stratégiques, organisationnels et humains            & 30 &    &    & E. Lamendour    & 3    & 1    & C           & CC                & E2        \\
+ENV-20105C    & Initiation à l'océanographie physique et chimique                                         & 18 & 9  & 3  & I. Brenon       & 3    & 1    & C           & CC                & E2        \\
+ENV-20106C    & Introduction aux aléas et risques côtiers                                                 & 15 & 15 &    & X. Bertin       & 3    & 1    & C           & 0,5*CC + 0,5*E1   & E2        \\
+ENV-20107C    & Mise à niveau en écologie marine                                                          & 30 & 3  & 9  & G. Radenac      & 3    & 1    & C           & 0,33*CC + 0,67*E1 & E2        \\
+ENV-20108C    & Découverte de l'entreprise : simulation de gestion                                        &    & 30 &    & F. Mayon        & 3    & 1    & C           & CC                & E2        \\
+\rowcolor[HTML]{EFEFEF} 
+UE-20103C     & UE disciplinaire                                                                          &    &    &    &                 & 12   &      &             &                   &           \\
+ENV-20109C    & Analyse de données en biologie                                                            & 24 & 6  & 30 & B. Simon-Bouhet & 4    & 1    & O           & 0,25*CC + 0,75*E1 & E2        \\
+ENV-20110C    & Écophysiologie                                                                            & 30 & 11 & 9  & C. Lefrançois   & 4    & 1    & O           & 0,25*CC + 0,75*E1 & E2        \\
+ENV-20111C    & Adaptation et conservation                                                                & 30 &    &    & P. Garcia       & 4    & 1    & O           & E1                & E2        \\
+\rowcolor[HTML]{9B9B9B} 
+Semestre 2    &                                                                                           &    &    &    &                 &      &      &             &                   &           \\
+\rowcolor[HTML]{C0C0C0} 
+Code EC       & Libellé                                                                                   & CM & TD & TP & Responsable     & ECTS & Coef & Obligatoire & Session 1         & Session 2 \\
+\rowcolor[HTML]{EFEFEF} 
+UE-20201C     & UE transversale                                                                           &    &    &    &                 & 6    &      &             &                   &           \\
+ANG-20208C    & Langue vivante - anglais                                                                  &    & 24 &    & F.Healy         & 2    & 1    & O           & CC                & E2        \\
+ENV-20209C    & Droit de l'environnement et du Littoral                                                   & 18 &    &    & A.Michelot      & 2    & 1    & O           & E1                & E2        \\
+ENV-20210C    & Environnement transversal 2 : Etudes de cas                                               &    & 18 & 6  & G.Radenac       & 2    & 1    & O           & O1                & O2        \\
+\rowcolor[HTML]{EFEFEF} 
+UE-20202C     & UE d'ouverture                                                                            &    &    &    &                 & 6    &      &             &                   &           \\
+ENV-20201B    & Acteurs et usagers de la mise en place du plan de gestion                                 & 15 & 15 &    & M. Dory         & 3    & 1    & O           & CC                & E2        \\
+SIG-20202B    & SIG et cartomatique pour non spécialistes                                                 & 20 & 40 &    & F.Rousseau      & 3    & 1    & O           & CC                & E2        \\
+\rowcolor[HTML]{EFEFEF} 
+UE-20203C     & UE disciplinaire                                                                          &    &    &    &                 & 18   &      &             &                   &           \\
+ENV-20203C    & Ecologie de la conservation                                                               & 20 & 4  &    & P.Bocher        & 2    & 1    & O           & E1                & E2        \\
+ENV-20204C    & Water Quality, Ecotoxicology, Bioremediation                                              & 33 & 9  & 16 & H.Montanié      & 5    & 1    & O           & 0,5*CC + 0,5*E1   & E2        \\
+ENV-20205C    & Ecologie littorale et estuarienne                                                         & 6  &    & 8  & D.Fichet        & 2    & 1    & O           & CC                & E2        \\
+ENV-20206C    & Ecologie cotière et océanographie                                                         & 15 & 5  &    & H.Hartmann      & 3    & 1    & O           & E1                & E2        \\
+ENV-20207C    & Ecologie microbienne et réseaux trophiques                                                & 21 & 10 &    & H.Montanié      & 3    & 1    & O           & 0,65*E1 + 0,35*CC & E2        \\
+STAG-O-20211C & Stage – Parcours écologie                                                                 &    &    &    & G.Radenac       & 3    & 1    & O           & CC                & ORAL      \\
+\rowcolor[HTML]{9B9B9B} 
+Semestre 3    &                                                                                           &    &    &    &                 &      &      &             &                   &           \\
+\rowcolor[HTML]{C0C0C0} 
+Code EC       & Libellé                                                                                   & CM & TD & TP & Responsable     & ECTS & Coef & Obligatoire & Session 1         & Session 2 \\
+              & UE transversale                                                                           &    &    &    &                 &      &      &             &                   &           \\
+              & Politiques publiques du développement durable                                             &    &    &    &                 &      &      &             &                   &           \\
+              & Enjeux environnementaux et sociétaux                                                      &    &    &    &                 &      &      &             &                   &           \\
+              & Analyse numérique                                                                         &    &    &    &                 &      &      &             &                   &           \\
+              & SIG appliquée à l'environnement                                                           &    &    &    &                 &      &      &             &                   &           \\
+              & Langue vivante - anglais                                                                  &    &    &    &                 &      &      &             &                   &           \\
+              & UE disciplinaire                                                                          &    &    &    &                 &      &      &             &                   &          
+\end{tabular}}
+\end{sidewaystable}
 
 \subsubsection{Semestre 4}
 
