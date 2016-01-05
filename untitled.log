@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.26)  3 JAN 2016 13:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.26)  5 JAN 2016 22:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -666,18 +666,24 @@ viève Goliard-Breuleux[][] (\T1/clmt/m/n/10.95 05.46.45.68.52\T1/clm2j/m/n/10.9
 
 AED: lastpage setting LastPage
 [17] [18]
-Overfull \vbox (169.19943pt too high) has occurred while \output is active []
-
-
-[19]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 577.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 577.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 565.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 565.
  (./untitled.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 577.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 577.
-Package rerunfilecheck Info: File `untitled.out' has not changed.
-(rerunfilecheck)             Checksum: CAA1F50AFAD2817AFD8BF7D3F5D77389;6404.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 577.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 565.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 565.
+
+
+Package rerunfilecheck Warning: File `untitled.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `untitled.out':
+(rerunfilecheck)             Before: CAA1F50AFAD2817AFD8BF7D3F5D77389;6404
+(rerunfilecheck)             After:  CF8DFF98A9E04D25DEF7B2F6C2546EB0;5876.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 565.
  )
 (\end occurred inside a group at level 1)
 
@@ -686,29 +692,56 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 577.
 Here is how much of TeX's memory you used:
  11313 strings out of 493089
  168485 string characters out of 6134841
- 300792 words of memory out of 5000000
+ 299792 words of memory out of 5000000
  14314 multiletter control sequences out of 15000+600000
  68025 words of font info for 203 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,12n,68p,950b,696s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cfr-lm/t1-c
-lm.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/u
-sr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texli
-ve/2015/texmf-dist/fonts/enc/dvips/cfr-lm/dotdigits-clm.enc}</usr/local/texlive
-/2015/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2015/texm
-f-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2015/texmf-dist/fon
-ts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pu
-blic/lm/lmcsc10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/l
-mmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr10.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/
-texlive/2015/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2015/texmf-dist
-/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
-e1/public/lm/lmtt10.pfb>
-Output written on untitled.pdf (23 pages, 313308 bytes).
+pdfTeX warning (dest): name{page.19} has been referenced but do
+es not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.10.4.4} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.10.4.3} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.10.3.4} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.10.3.3} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.10.2.4} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.10.2.3} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.10.1.4} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.10.1.3} has been referenced but does 
+not exist, replaced by a fixed one
+
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cfr-lm/t1-clm.enc}{/usr/loc
+al/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive
+/2015/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2015/texmf-di
+st/fonts/enc/dvips/cfr-lm/dotdigits-clm.enc}</usr/local/texlive/2015/texmf-dist
+/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
+e1/public/lm/lmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
+lm/lmbx8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmcsc10.
+pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2015/tex
+mf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2015/texmf-dist/fon
+ts/type1/public/lm/lmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
+lic/lm/lmri10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmt
+t10.pfb>
+Output written on untitled.pdf (22 pages, 312773 bytes).
 PDF statistics:
- 677 PDF objects out of 1000 (max. 8388607)
- 634 compressed objects within 7 object streams
+ 673 PDF objects out of 1000 (max. 8388607)
+ 631 compressed objects within 7 object streams
  111 named destinations out of 1000 (max. 500000)
  31409 words of extra memory for PDF output out of 35830 (max. 10000000)
 
