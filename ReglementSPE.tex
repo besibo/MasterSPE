@@ -16,7 +16,7 @@
 \usepackage[babel]{microtype}
 \usepackage[tt={oldstyle=false,proportional=false,variable=false}]{cfr-lm}
 \usepackage[margin=3.5cm]{geometry}
-\usepackage{setspace,booktabs,rotating,placeins}
+\usepackage{setspace,booktabs,rotating,placeins,hvfloat}
 \usepackage[table,xcdraw]{xcolor}
 
 % Création de 2 styles d'en-têtes et pieds de page : 1 pour le corps du texte et un pour lapage de garde et la table des matières
@@ -504,28 +504,14 @@ Responsable du master 1 : \href{mailto:benoit.simon-bouhet@univ-lr.fr}{Benoît S
 
 \section{Maquettes pédagogiques et modalités d'évaluation}\label{Maquette}
 
-\subsection{GEEL}
-
-\subsubsection{Semestres 1 et 2}
-
-
-\begin{figure}[htbp]
-		\includegraphics[width=\textwidth]{GEEL_S1.png}
-\end{figure}
-
-\FloatBarrier
-
-\begin{figure}[htbp]
-		\includegraphics[width=\textwidth]{GEEL_S2.png}
-\end{figure}
-
-\FloatBarrier
-
-\begin{sidewaystable}[]
-\centering
-\caption{Parcours Gestion de l'Environnement et Écologie Littorale -- Année 1}
-\label{M1GEEL}
-\resizebox{\linewidth}{!}{%
+\hvFloat[%
+nonFloat=true,%
+capWidth=w,%
+capPos=t,%
+rotAngle=90,%
+objectPos=c%
+]{table}{
+\resizebox{1.5\linewidth}{!}{%
 \begin{tabular}{lllllllllll}
 \hline
 \rowcolor[HTML]{656565} 
@@ -573,34 +559,415 @@ ENV-20205C                     & Ecologie littorale et estuarienne              
 ENV-20207C                     & Océanographie côtière et dynamique trophique                                              & 36                        & 15                        &                           & H. Hartmann                        & 6                           & 1                           & O                                  & 0,65*E1 + 0,35*CC                & E2                               \\
 STAG-O-20211C                  & Stage – Parcours écologie                                                                 &                           &                           &                           & G.Radenac                          & 3                           & 1                           & O                                  & CC                               & ORAL                             \\ \hline
 \end{tabular}}
-\end{sidewaystable}
+}{Parcours Gestion de l'Environnement et Écologie Littorale -- Année 1}{M1GEEL}
 
 
-\subsubsection{Semestres 3 et 4}
+\hvFloat[%
+nonFloat=true,%
+capWidth=w,%
+capPos=t,%
+rotAngle=90,%
+objectPos=c%
+]{table}{
+\resizebox{1.2\linewidth}{!}{%
+\begin{tabular}{lllllllllll}
+\hline
+\rowcolor[HTML]{656565} 
+Semestre 3                     &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\ \hline
+\rowcolor[HTML]{9B9B9B} 
+{\color[HTML]{000000} Code EC} & {\color[HTML]{000000} Libellé}                     & {\color[HTML]{000000} CM} & {\color[HTML]{000000} TD} & {\color[HTML]{000000} TP} & {\color[HTML]{000000} Responsable} & {\color[HTML]{000000} ECTS} & {\color[HTML]{000000} Coef} & {\color[HTML]{000000} Obligatoire} & {\color[HTML]{000000} Session 1} & {\color[HTML]{000000} Session 2} \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20101C                      & UE transversale                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20102C                      & UE d'ouverture (3 EC obligatoires + 1 EC au choix) &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20103C                      & UE disciplinaire                                   &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{656565} 
+Semestre 4                     &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{9B9B9B} 
+Code EC                        & Libellé                                            & CM                        & TD                        & TP                        & Responsable                        & ECTS                        & Coef                        & Obligatoire                        & Session 1                        & Session 2                        \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20201C                      & UE transversale                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20202C                      & UE d'ouverture                                     &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20203C                      & UE disciplinaire                                   &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                 
+\end{tabular}
+}
+}{Parcours Gestion de l'Environnement et Écologie Littorale -- Année 2}{M2GEEL}
 
 
-\subsection{GGL}
+\hvFloat[%
+nonFloat=true,%
+capWidth=w,%
+capPos=t,%
+rotAngle=90,%
+objectPos=c%
+]{table}{
+\resizebox{1.2\linewidth}{!}{%
+\begin{tabular}{lllllllllll}
+\hline
+\rowcolor[HTML]{656565} 
+Semestre 3                     &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\ \hline
+\rowcolor[HTML]{9B9B9B} 
+{\color[HTML]{000000} Code EC} & {\color[HTML]{000000} Libellé}                     & {\color[HTML]{000000} CM} & {\color[HTML]{000000} TD} & {\color[HTML]{000000} TP} & {\color[HTML]{000000} Responsable} & {\color[HTML]{000000} ECTS} & {\color[HTML]{000000} Coef} & {\color[HTML]{000000} Obligatoire} & {\color[HTML]{000000} Session 1} & {\color[HTML]{000000} Session 2} \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20101C                      & UE transversale                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20102C                      & UE d'ouverture (3 EC obligatoires + 1 EC au choix) &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20103C                      & UE disciplinaire                                   &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{656565} 
+Semestre 4                     &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{9B9B9B} 
+Code EC                        & Libellé                                            & CM                        & TD                        & TP                        & Responsable                        & ECTS                        & Coef                        & Obligatoire                        & Session 1                        & Session 2                        \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20201C                      & UE transversale                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20202C                      & UE d'ouverture                                     &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20203C                      & UE disciplinaire                                   &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                 
+\end{tabular}
+}
+}{Parcours Géosciences et géophysique du Littoral -- Année 1}{M1GGL}
 
-\subsubsection{Semestres 1 et 2}
 
 
-\subsubsection{Semestres 3 et 4}
+\hvFloat[%
+nonFloat=true,%
+capWidth=w,%
+capPos=t,%
+rotAngle=90,%
+objectPos=c%
+]{table}{
+\resizebox{1.2\linewidth}{!}{%
+\begin{tabular}{lllllllllll}
+\hline
+\rowcolor[HTML]{656565} 
+Semestre 3                     &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\ \hline
+\rowcolor[HTML]{9B9B9B} 
+{\color[HTML]{000000} Code EC} & {\color[HTML]{000000} Libellé}                     & {\color[HTML]{000000} CM} & {\color[HTML]{000000} TD} & {\color[HTML]{000000} TP} & {\color[HTML]{000000} Responsable} & {\color[HTML]{000000} ECTS} & {\color[HTML]{000000} Coef} & {\color[HTML]{000000} Obligatoire} & {\color[HTML]{000000} Session 1} & {\color[HTML]{000000} Session 2} \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20101C                      & UE transversale                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20102C                      & UE d'ouverture (3 EC obligatoires + 1 EC au choix) &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20103C                      & UE disciplinaire                                   &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{656565} 
+Semestre 4                     &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{9B9B9B} 
+Code EC                        & Libellé                                            & CM                        & TD                        & TP                        & Responsable                        & ECTS                        & Coef                        & Obligatoire                        & Session 1                        & Session 2                        \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20201C                      & UE transversale                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20202C                      & UE d'ouverture                                     &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20203C                      & UE disciplinaire                                   &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                 
+\end{tabular}
+}
+}{Parcours Géosciences et géophysique du Littoral -- Année 2}{M2GGL}
 
 
-\subsection{GAGL}
+\hvFloat[%
+nonFloat=true,%
+capWidth=w,%
+capPos=t,%
+rotAngle=90,%
+objectPos=c%
+]{table}{
+\resizebox{1.2\linewidth}{!}{%
+\begin{tabular}{lllllllllll}
+\hline
+\rowcolor[HTML]{656565} 
+Semestre 3                     &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\ \hline
+\rowcolor[HTML]{9B9B9B} 
+{\color[HTML]{000000} Code EC} & {\color[HTML]{000000} Libellé}                     & {\color[HTML]{000000} CM} & {\color[HTML]{000000} TD} & {\color[HTML]{000000} TP} & {\color[HTML]{000000} Responsable} & {\color[HTML]{000000} ECTS} & {\color[HTML]{000000} Coef} & {\color[HTML]{000000} Obligatoire} & {\color[HTML]{000000} Session 1} & {\color[HTML]{000000} Session 2} \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20101C                      & UE transversale                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20102C                      & UE d'ouverture (3 EC obligatoires + 1 EC au choix) &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20103C                      & UE disciplinaire                                   &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{656565} 
+Semestre 4                     &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{9B9B9B} 
+Code EC                        & Libellé                                            & CM                        & TD                        & TP                        & Responsable                        & ECTS                        & Coef                        & Obligatoire                        & Session 1                        & Session 2                        \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20201C                      & UE transversale                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20202C                      & UE d'ouverture                                     &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20203C                      & UE disciplinaire                                   &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                 
+\end{tabular}
+}
+}{Parcours Géographie Appliquée à le Gestion du Littoral -- Année 1}{M1GAGL}
 
-\subsubsection{Semestres 1 et 2}
+
+\hvFloat[%
+nonFloat=true,%
+capWidth=w,%
+capPos=t,%
+rotAngle=90,%
+objectPos=c%
+]{table}{
+\resizebox{1.2\linewidth}{!}{%
+\begin{tabular}{lllllllllll}
+\hline
+\rowcolor[HTML]{656565} 
+Semestre 3                     &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\ \hline
+\rowcolor[HTML]{9B9B9B} 
+{\color[HTML]{000000} Code EC} & {\color[HTML]{000000} Libellé}                     & {\color[HTML]{000000} CM} & {\color[HTML]{000000} TD} & {\color[HTML]{000000} TP} & {\color[HTML]{000000} Responsable} & {\color[HTML]{000000} ECTS} & {\color[HTML]{000000} Coef} & {\color[HTML]{000000} Obligatoire} & {\color[HTML]{000000} Session 1} & {\color[HTML]{000000} Session 2} \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20101C                      & UE transversale                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20102C                      & UE d'ouverture (3 EC obligatoires + 1 EC au choix) &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20103C                      & UE disciplinaire                                   &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{656565} 
+Semestre 4                     &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{9B9B9B} 
+Code EC                        & Libellé                                            & CM                        & TD                        & TP                        & Responsable                        & ECTS                        & Coef                        & Obligatoire                        & Session 1                        & Session 2                        \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20201C                      & UE transversale                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20202C                      & UE d'ouverture                                     &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20203C                      & UE disciplinaire                                   &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                 
+\end{tabular}
+}
+}{Parcours Géographie Appliquée à le Gestion du Littoral -- Année 2}{M2GAGL}
 
 
-\subsubsection{Semestres 3 et 4}
+\hvFloat[%
+nonFloat=true,%
+capWidth=w,%
+capPos=t,%
+rotAngle=90,%
+objectPos=c%
+]{table}{
+\resizebox{1.2\linewidth}{!}{%
+\begin{tabular}{lllllllllll}
+\hline
+\rowcolor[HTML]{656565} 
+Semestre 3                     &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\ \hline
+\rowcolor[HTML]{9B9B9B} 
+{\color[HTML]{000000} Code EC} & {\color[HTML]{000000} Libellé}                     & {\color[HTML]{000000} CM} & {\color[HTML]{000000} TD} & {\color[HTML]{000000} TP} & {\color[HTML]{000000} Responsable} & {\color[HTML]{000000} ECTS} & {\color[HTML]{000000} Coef} & {\color[HTML]{000000} Obligatoire} & {\color[HTML]{000000} Session 1} & {\color[HTML]{000000} Session 2} \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20101C                      & UE transversale                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20102C                      & UE d'ouverture (3 EC obligatoires + 1 EC au choix) &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20103C                      & UE disciplinaire                                   &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{656565} 
+Semestre 4                     &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{9B9B9B} 
+Code EC                        & Libellé                                            & CM                        & TD                        & TP                        & Responsable                        & ECTS                        & Coef                        & Obligatoire                        & Session 1                        & Session 2                        \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20201C                      & UE transversale                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20202C                      & UE d'ouverture                                     &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20203C                      & UE disciplinaire                                   &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                 
+\end{tabular}
+}
+}{Parcours Management Environnemental -- Année 1}{M1ME}
 
 
-\subsection{ME}
+\hvFloat[%
+nonFloat=true,%
+capWidth=w,%
+capPos=t,%
+rotAngle=90,%
+objectPos=c%
+]{table}{
+\resizebox{1.2\linewidth}{!}{%
+\begin{tabular}{lllllllllll}
+\hline
+\rowcolor[HTML]{656565} 
+Semestre 3                     &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\ \hline
+\rowcolor[HTML]{9B9B9B} 
+{\color[HTML]{000000} Code EC} & {\color[HTML]{000000} Libellé}                     & {\color[HTML]{000000} CM} & {\color[HTML]{000000} TD} & {\color[HTML]{000000} TP} & {\color[HTML]{000000} Responsable} & {\color[HTML]{000000} ECTS} & {\color[HTML]{000000} Coef} & {\color[HTML]{000000} Obligatoire} & {\color[HTML]{000000} Session 1} & {\color[HTML]{000000} Session 2} \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20101C                      & UE transversale                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20102C                      & UE d'ouverture (3 EC obligatoires + 1 EC au choix) &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20103C                      & UE disciplinaire                                   &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{656565} 
+Semestre 4                     &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{9B9B9B} 
+Code EC                        & Libellé                                            & CM                        & TD                        & TP                        & Responsable                        & ECTS                        & Coef                        & Obligatoire                        & Session 1                        & Session 2                        \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20201C                      & UE transversale                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20202C                      & UE d'ouverture                                     &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+\rowcolor[HTML]{C0C0C0} 
+UE-20203C                      & UE disciplinaire                                   &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                  \\
+                               &                                                    &                           &                           &                           &                                    &                             &                             &                                    &                                  &                                 
+\end{tabular}
+}
+}{Parcours Management Environnemental -- Année 2}{M2ME}
 
-\subsubsection{Semestres 1 et 2}
-
-
-\subsubsection{Semestres 3 et 4}
 
 
 \section{Calendriers}\label{Calendrier}
