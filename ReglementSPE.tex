@@ -19,6 +19,7 @@
 \usepackage{setspace,booktabs,rotating,placeins,hvfloat,float}
 \usepackage[table,xcdraw]{xcolor}
 
+
 % Création de 2 styles d'en-têtes et pieds de page : 1 pour le corps du texte et un pour lapage de garde et la table des matières
 \usepackage{etoolbox,lastpage,fancyhdr}
 
@@ -48,6 +49,23 @@
 \author{Sciences, Technologie et Santé\\Sciences Humaines et Sociales\\Droit Économie Gestion}
 \date{2014--2018}
 
+% Redéfinition de \maketitle pour faire apparaître le logo de l'université !
+\makeatletter
+\def\@maketitle{
+\raggedright
+\includegraphics[width = 30mm]{ULR.pdf}\\[8ex]
+\begin{center}%
+  {\LARGE \@title \par}%
+  \vskip 3em%
+  {\large
+   \lineskip .75em%
+    \begin{tabular}[t]{c}%
+      \@author
+    \end{tabular}\par}%
+    \vskip 1.5em%
+  {\large \@date \par}%       % Set date in \large size.
+\end{center}}
+\makeatother
 
 
 \begin{document}
@@ -72,9 +90,9 @@ Ce cadre réglementaire est complété par la charte des examens de l'universit�
 Afin de préserver sa mission d'enseignement, l'ULR prévoit à tout moment de l'année la possibilité de déroger à tout ou partie des articles du présent règlement en cas de pandémie constatée par l'autorité administrative compétente.}}
 \end{center}
 
-\noindent Avis des conseils d’UFR le 26 mai 2016 (FLASH), le 20 mai 2016 (FaST) et le 7 juillet 2016 (DROIT/GESTION).\\
+\noindent Avis des conseils d’UFR le 26 mai 2016 (FLASH), le 24 juin 2016 (FaST) et le 7 juillet 2016 (DROIT/GESTION).\\
 
-\noindent Adopté en Commission de la Formation et de la Vie Universitaire les 21 juin et 12 juillet 2016.
+\noindent Adopté en Commission de la Formation et de la Vie Universitaire le 12 juillet 2016.
 
 \clearpage
 \tableofcontents
@@ -344,20 +362,20 @@ Les résultats peuvent être contestés dans les deux mois à compter de la date
 
 
 \subsection{Délivrance du diplôme}
-Le diplôme de maîtrise est délivré après l'obtention de 2 semestres d'enseignement représentant 60 crédits ECTS. Une attestation de réussite est fournie trois semaines au plus tard après la proclamation des résultats.
+Le diplôme de master est délivré après l'obtention de 4 semestres d'enseignement représentant 120 crédits ECTS et après validation de l'aptitude à maîtriser au moins une langue vivante étrangère. Une attestation de réussite est fournie trois semaines au plus tard après la proclamation des résultats.
+
+L'aptitude à maîtriser au moins une langue vivante étrangère est validée par l'obtention de la moyenne à au moins un EC de langue vivante étrangère en deuxième année de master.
 
 Le diplôme de maîtrise est attribué à l'étudiant, à sa demande, lorsque la première année du master est obtenue. Une attestation de réussite est délivrée à la demande de l'étudiant.
 
-Le diplôme de master est délivré après l'obtention de 4 semestres d'enseignement représentant 120 crédits ECTS. Une attestation de réussite est fournie trois semaines au plus tard après la proclamation des résultats.
-
-La délivrance du diplôme définitif et de l'annexe descriptive au diplôme, réalisée par le Service des Études et de la Vie Étudiante (SEVE) de l'université intervient dans un délai inférieur à six mois après la proclamation des résultats.
+La délivrance du diplôme définitif et du supplément au diplôme, réalisée par le Service des Études et de la Vie Étudiante (SEVE - Technoforum) intervient dans un délai inférieur à six mois après la proclamation des résultats.
 
 Un relevé de notes semestriel est délivré à l'issue des sessions.
 
 
 
 \subsection{Retrait des relevés de notes et de l'attestation de réussite}
-Sur présentation de leur carte d'étudiant ou d'une pièce d'identité, les étudiants pourront retirer leurs relevés de notes ou leurs attestations de réussites auprès du secrétariat scolarité dont dépend l'étudiant : 
+Sur présentation de leur carte d'étudiant ou d'une pièce d'identité, les étudiants pourront retirer leurs relevés de notes ou leurs attestations de réussites auprès du secrétariat de scolarité dont dépend l'étudiant : 
 \begin{itemize}
 \item secrétariat du département de Biologie du bâtiment Orbigny (2ème étage, bureau B22) pour les parcours GGL et GEEL
 \item secrétariat du Master SPE du bâtiment Flash 2 (2ème étage, bureau D211) pour le parcours GAGL
